@@ -2,12 +2,8 @@ import java.util.Scanner;
 
 public class twosum {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int sum = 0;
-        String s[] = scanner.nextLine().split(" ");
-        for (int i = 0; i < s.length; i++) {
-            sum += Integer.parseInt(s[i]);
-        }
-        System.out.println(sum);
+        Scanner sc = new Scanner(System.in);
+        String s[] = sc.nextLine().split(" ");
+        System.out.println(Integer.parseInt(s[0]) + Integer.parseInt(s[1]));
     }
 }
