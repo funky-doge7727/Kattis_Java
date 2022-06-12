@@ -25,9 +25,7 @@ public class delimitersoup {
                 st.add(puncs[i]);
             }
         }
-
         if (broken == false) System.out.println("ok so far");
-
     }
 
 }
